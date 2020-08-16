@@ -1,7 +1,7 @@
 # Recommandation System
 Recommendation system using python on Amazon customer review data in MapReduce with AWS EMR.
 # To run on 20 EMR nodes:
-!python MovieSimilaritiesLarge.py -r emr --num-ec2-instances=20 --items=ml-1m/movies.dat ml-1m/ratings.dat
+!python AmazonSimilarityReview.py -r emr --num-ec2-instances=20 
 
 Troubleshooting EMR jobs (subsitute your job ID):
 
