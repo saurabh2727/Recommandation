@@ -1,5 +1,5 @@
 # Recommandation System
-Recommendation system using python on Amazon customer review data in MapReduce with AWS EMR.
+Recommendation system using python on Amazon customer review data with collaborative filtering in MapReduce with AWS EMR.
 # To run on 20 EMR nodes:
 !python AmazonSimilarityReview.py -r emr --num-ec2-instances=20 
 
